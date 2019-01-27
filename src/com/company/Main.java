@@ -10,8 +10,8 @@ public class Main {
         System.out.println("wo444rld");
         System.out.println("world");
         System.out.println("world xdfgb44444fb");
-        System.out.println("hihbcf4444444bc");
-        System.out.println("hihb4444444cfbc");
+        System.out.println("hihbcf444cbcvb4444bc");
+        System.out.println("hihb4444444xcbfcfbc");
 
     }
 }
