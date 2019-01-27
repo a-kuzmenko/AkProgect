@@ -7,7 +7,7 @@ public class Main {
         System.out.println("hi");
         System.out.println("hi");
         System.out.println("world");
-        System.out.println("world");
+        System.out.println("wo123rld");
         System.out.println("wo123rld");
 
 
