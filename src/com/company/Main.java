@@ -9,8 +9,9 @@ public class Main {
         System.out.println("world");
         System.out.println("world");
         System.out.println("world");
-        System.out.println("world");
-        System.out.println("hi");
+        System.out.println("world xdfgbfb");
+        System.out.println("hihbcfbc");
+        System.out.println("hihbcfbc");
 
     }
 }
