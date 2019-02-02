@@ -60,7 +60,7 @@ public class Main {
         System.out.println();
 
         System.out.println("Вывести массив с помощью Arrays: ");
-        System.out.println(Arrays.toString(a));
+        ShowArray(a);
         System.out.println();
 
         System.out.println("Вывести двойной массив: ");
@@ -73,6 +73,30 @@ public class Main {
         }
 
         invert(a);
+        ShowArray(a);
+
+        int [] sort = {1, 5, 8, 4, 2, 0, 9};
+
+        sort(sort);
+        ShowArray(sort);
+    }
+
+    private static void sort(int[] sort) {
+        for (int i = sort.length -1; i <0 ; i--) {
+            for (int j = 0; j < i; j++) {
+
+                if(sort[j] > sort[j+1]) {
+                    int temp = sort[j];
+                    sort[j] = sort[j+1];
+                    sort[j+1] = temp;
+                }
+
+            }
+
+        }
+    }
+
+    private static void ShowArray(int[] a) {
         System.out.println(Arrays.toString(a));
     }
 
