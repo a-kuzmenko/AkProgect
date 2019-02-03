@@ -82,7 +82,7 @@ public class Main {
     }
 
     private static void sort(int[] sort) {
-        for (int i = sort.length -1; i <0 ; i--) {
+        for (int i = sort.length -1; i >= 0 ; i--) {
             for (int j = 0; j < i; j++) {
 
                 if(sort[j] > sort[j+1]) {
