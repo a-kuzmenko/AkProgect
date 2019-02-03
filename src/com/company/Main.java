@@ -79,6 +79,17 @@ public class Main {
 
         sort(sort);
         ShowArray(sort);
+
+        System.out.println(new StringBuffer("adkfgfkgk").reverse());//перевернуть строку методом reverse()
+
+        int [] arr = {10, 20, 30, 40};
+        int pos = Arrays.binarySearch(arr, 25);
+        System.out.println(pos);
+
+        int[] arr0 = {1, 3, 5, 7, 4, 9};
+        int[] arr1 = new int[8];
+        System.arraycopy(arr0,1,arr1,2,3);
+        System.out.println("arr0: " + Arrays.toString(arr1));
     }
 
     private static void sort(int[] sort) {
